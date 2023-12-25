@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL:
-    "http://fiverrapi-env.eba-mrgqpeik.ap-south-1.elasticbeanstalk.com/api",
+  baseURL: "https://tan-lucky-grasshopper.cyclic.app/api",
   withCredentials: true,
 });
 
